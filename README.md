@@ -11,3 +11,33 @@ With no rain for several months, the effects are visible
 
 
 By publishing this photos, and maintaining them in a location online, we have for objective to raise awareness to this issue, as well as create a historical repository of such images. 
+
+* * *
+
+# How to update (VOSTPT volunteers only) 
+
+Open [**index.html**](https://github.com/vostpt/seca.vost.pt/blob/main/index.html)
+
+** Create new div from the following code**
+
+
+```
+<div class="row" id="COISA-UNICA">
+        <div class="col-md-12">
+          <h2>
+              <a href="#COISA-UNICA">LOCALIDADE</a>
+          </h2>
+          <div class="juxtapose" data-makeresponsive="true">
+              <img src="img/NOME-DA-IMAGEM.JPG" data-label="DATA1" data-credit="CREDITOS1"/>
+              <img src="img/NOME-DA-IMAGEM2.JPG"  data-label="DATA2" data-credit="CREDITOS2">
+          </div>
+        </div>
+      </div>
+ ```
+ 
+ **Drag images to [this directory](https://github.com/vostpt/seca.vost.pt/tree/main/img)**
+ 
+ **Images should have a unique name**
+ 
+ **Save Changes** Please **always** include a description of what local you added. 
+ 
