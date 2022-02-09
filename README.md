@@ -41,3 +41,22 @@ Open [**index.html**](https://github.com/vostpt/seca.vost.pt/blob/main/index.htm
  
  **Save Changes** Please **always** include a description of what local you added. 
  
+ # How to update single image 
+ 
+ ```
+<div class="row" id="COISA-UNICA">
+        <div class="col-md-12">
+          <h2>
+              <a href="#COISA-UNICA">LOCALIDADE</a>
+          </h2>
+          <div>
+              <img src="img/NOME-DA-IMAGEM.JPG" data-label="DATA1" data-credit="CREDITOS1"/>
+          </div>
+        </div>
+      </div>
+ ```
+ 
+ 
+ 
+ 
+ 
