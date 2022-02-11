@@ -44,16 +44,14 @@ Open [**index.html**](https://github.com/vostpt/seca.vost.pt/blob/main/index.htm
  # How to update single image 
  
  ```
-<div class="row" id="COISA-UNICA">
-        <div class="col-md-12">
-          <h2>
-              <a href="#COISA-UNICA">LOCALIDADE</a>
-          </h2>
-          <div>
-              <img src="img/NOME-DA-IMAGEM.JPG" data-label="DATA1" data-credit="CREDITOS1"/>
-          </div>
-        </div>
-      </div>
+  <div class="col-md-12">
+      <h2>
+        <a href="#COISA-UNICA">LOCALIDADE </a>
+      </h2>
+          <img class="img-fluid" style="width: 100%;" src="img/NOME-DA-IMAGEM.JPG" alt="">
+          <div class="jx-label" tabindex="0">março 2021</div>
+          <div class="jx-credit"><em>Photo Credits:</em> CREDITOS</div>
+  </div>
  ```
  
  
